@@ -7,4 +7,4 @@ public class Main {
 
         System.out.println(dog1.toString());
     }
-}
+}  // това беше нашия проблем - грешката да
