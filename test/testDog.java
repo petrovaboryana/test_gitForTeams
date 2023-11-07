@@ -12,6 +12,9 @@ public class testDog {
     public void testWalkOut() {
         Dog dog = new Dog("Ivan","buldog",1,15.2);
         dog.walkOut(2);
+
         Assertions.assertEquals(14.40, dog.weight);
     }//тук не ми минава имам разминаване с някакви стотни... не знам защо
+
+
 }
